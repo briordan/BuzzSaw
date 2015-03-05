@@ -37,15 +37,14 @@ public class PointStar : MonoBehaviour, IPlayerRespawnListner
 
     public void FinishAnimationEvent()
     {
+        Debug.Log("Finished Collect Animation");
         Renderer.enabled = false;
-//      Animator.SetTrigger("Reset");
     }
 
     public void OnPlayerRespawnInThisCheckpoint(Checkpoint checkpoint, Player player)
     {
         _isCollected = false;
-        Animator.SetTrigger("Reset"); // Test
-        Debug.Log("RespawnStar");
+        Animator.SetTrigger("Reset"); 
         Renderer.enabled = true;
 
     }

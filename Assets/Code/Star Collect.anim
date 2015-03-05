@@ -20,12 +20,12 @@ AnimationClip:
         value: {x: 0, y: 0, z: 0}
         inSlope: {x: 0, y: 6, z: 0}
         outSlope: {x: 0, y: 6, z: 0}
-        tangentMode: 359349296
+        tangentMode: 48
       - time: .666666687
         value: {x: 0, y: 4, z: 0}
         inSlope: {x: 0, y: 6, z: 0}
         outSlope: {x: 0, y: 6, z: 0}
-        tangentMode: 0
+        tangentMode: -1960081117
       m_PreInfinity: 2
       m_PostInfinity: 2
     path: Star
@@ -316,14 +316,7 @@ AnimationClip:
     script: {fileID: 0}
   m_EulerEditorCurves: []
   m_Events:
-  - time: .666666687
-    functionName: FinishAnimationEvent
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
-  - time: .666666687
+  - time: .5
     functionName: FinishAnimationEvent
     data: 
     objectReferenceParameter: {fileID: 0}

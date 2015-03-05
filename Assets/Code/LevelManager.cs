@@ -69,7 +69,7 @@ using UnityEngine;
                 _checkpoints[_currentCheckpointIndex].SpawnPlayer(Player);
 #else
             if (_currentCheckpointIndex != -1)
-                _checkpoints[_currentCheckpointIndex].Spawnplayer(Player);
+                _checkpoints[_currentCheckpointIndex].SpawnPlayer(Player);
 #endif
             
         }
